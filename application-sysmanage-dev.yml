@@ -1,4 +1,3 @@
-    
 server:
   port: 9001
 spring:
@@ -10,5 +9,5 @@ spring:
       username: root
       password: 123456
 mybatis-plus:
-  mapper-locations: classpath:com/fengrui/hrm/mapper/*Mapper.xml
-  type-aliases-package: com.fengrui.hrm.domain,com.fengrui.hrm.query
+  mapper-locations: classpath:cn/itsource/hrm/mapper/*Mapper.xml
+  type-aliases-package: cn.itsource.hrm.domain,cn.itsource.hrm.query
